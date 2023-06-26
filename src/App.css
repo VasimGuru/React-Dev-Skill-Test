@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.first_row{
+  background: white;
+  height: 767px;
+}
+.booking_h1{
+  color: red;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.window{
+  padding-left: 10px;
+}
+
+.list{
+  list-style-type: none;
+  font-size: 18px;
+}
+.list_1{
+  color: rgb(242, 60, 90) !important;
+}
+.rt1 a{
+/* list-style: none; */
+text-decoration: none;
+color: black;
+}
+.rt1{
+  margin-left: 20%;
+}
+.main_page{
+  overflow-x: hidden;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+.center{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.log_out{
+  text-decoration: none;
+}
+.search{
+  position: absolute;
+  left: 38%;
+  z-index:999;
+}
+.first_box{
+  height: 180px;
+  width: 230px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  margin-left: 10px;
+  padding: 10px;
+}
+.second_box{
+    height: auto;
+    width: 530px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    margin-left: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.third_box{
+    height: auto;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    margin-left: 10px;
+    padding: 10px;
+}
+.row>* {
+  padding-right: 0px !important;
+}

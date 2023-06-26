@@ -1,0 +1,30 @@
+[{
+    "id":1,
+    "Tickets":3,
+    "Movie_Name":"Rajesh Mehta"
+},
+{
+    "id":2,
+    "Tickets":5,
+    "Movie_Name":"Param Sinha"
+},
+{
+    "id":3,
+    "Tickets":1,
+    "Movie_Name":"Sita Ramesh"
+},
+{
+    "id":4,
+    "Tickets":"x",
+    "Movie_Name":"xxxx xxxxS"
+},
+{
+    "id":5,
+    "Tickets":"x",
+    "Movie_Name":"xxxx xxxxS"
+},
+{
+    "id":6,
+    "Tickets":"x",
+    "Movie_Name":"xxxx xxxxS"
+}]
